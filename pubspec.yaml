@@ -1,0 +1,28 @@
+name: pdf_toolkit
+description: PDF tools with AI (bring your own API key)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pdf: ^3.11.1
+  syncfusion_flutter_pdf: ^28.1.33
+  file_picker: ^8.1.6
+  image_picker: ^1.1.2
+  path_provider: ^2.1.5
+  share_plus: ^10.1.2
+  open_filex: ^4.5.0
+  http: ^1.2.2
+  flutter_secure_storage: ^9.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
